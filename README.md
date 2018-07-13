@@ -14,7 +14,8 @@ cd reactts-browserifytsify
 
 run commands:
 
-```npm install -g browserify
+```
+npm install -g browserify
 
 npm install tsify
 
