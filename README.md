@@ -14,18 +14,18 @@ cd reactts-browserifytsify
 
 run commands:
 
-npm install -g browserify
+`npm install -g browserify
 
 npm install tsify
 
 npm install --save-dev typescript@2.9.1 (or) npm install --save-dev typescript
 
-npm install --save react react-dom @types/react @types/react-dom
+npm install --save react react-dom @types/react @types/react-dom`
 
 
 run this command to transcompile from TypeScript in React to plain JavaScript
 
-browserify principal.tsx -p [ tsify --noImplicitAny ] > comprimido.js
+`browserify principal.tsx -p [ tsify --noImplicitAny ] > comprimido.js`
 
 
 Install Apache Tomcat 9 server in your pc, in desktop folder
